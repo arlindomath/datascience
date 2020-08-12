@@ -59,7 +59,5 @@ Para salvar o mapa em um Arquivo HTML:
 ```python
 mapa.save('mapa.html')
 ```
-<iframe height="265" style="width: 100%;" scrolling="no" title="Mapa Folium" src="https://codepen.io/drax0114/embed/eYZYmLB?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/drax0114/pen/eYZYmLB'>Mapa Folium</a> by Arlindo Matheus
-  (<a href='https://codepen.io/drax0114'>@drax0114</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+![Codepen](https://codepen.io/drax0114/pen/eYZYmLB)
+
