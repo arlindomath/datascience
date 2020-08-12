@@ -60,6 +60,7 @@ Para salvar o mapa em um Arquivo HTML:
 mapa.save('mapa.html')
 ```
 [Acesse o mapa](https://codepen.io/drax0114/pen/eYZYmLB)
+
 Agora precisamos definir através dos nossos dados as localizações correspondentes aos dados:
 ```python
 locais = dados_covid19 [["lat","lon"]].values.tolist() 
