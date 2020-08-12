@@ -14,8 +14,19 @@ O mapa de calor mostra quais são os pontos quentes dos dados. Com 
 
 ## VAMOS AO CÓDIGO!
 
-Para instalar o Folium no Colab Notebook utilizamos o pip. O pip é o instalador de pacotes do Python, linguagem que estamos utilizando:
+Para instalar o Folium no [Colab Notebook](https://colab.research.google.com/) utilizamos o pip. O pip é o instalador de pacotes do Python, linguagem que estamos utilizando:
 ~~~python
 !pip install folium 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+~~~~
+Depois de instalar a biblioteca, devemos importá-la para o nosso código:
+~~~python
+import folium 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+~~~~
+Com o folium presente, temos então a facilidade de importar o modelo de Mapa de Calor presente nos *plugins* da biblioteca, aqui então importaremos o HeatMap:
+## ATENÇÃO PARA AS LETRAS MAIÚSCULAS E MINÚSCULAS. NO PYTHON ELAS FAZEM PARTE DA IDENTIDADE DO CÓDIGO E SEGUEM O PADRÃO DA LINGUAGEM!
+~~~~python
+from folium.plugins import HeatMap 
 #Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
 ~~~~
