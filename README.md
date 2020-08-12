@@ -59,5 +59,5 @@ Para salvar o mapa em um Arquivo HTML:
 ```python
 mapa.save('mapa.html')
 ```
-![Codepen](https://codepen.io/drax0114/pen/eYZYmLB)
+[Acesse o mapa](https://codepen.io/drax0114/pen/eYZYmLB)
 
