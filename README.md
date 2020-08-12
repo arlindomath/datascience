@@ -11,8 +11,7 @@ Através de diferentes tipos de informações é possível construir diversos ti
 ### Mapa de calor
 
 
-O mapa de calor mostra quais são os pontos quentes dos dados. 
-Com ele podemos identificar as regiões com maior concentração de casos de Covid19. 
+O mapa de calor mostra quais são os pontos quentes dos dados. Com ele podemos identificar as regiões com maior concentração de casos de Covid19. 
 Para construir esse Mapa utilizaremos a Biblioteca Folium - Acesse a documentação: https://python-visualization.github.io/folium/
 
 #### VAMOS AO CÓDIGO!
