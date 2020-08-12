@@ -16,5 +16,6 @@ O mapa de calor mostra quais são os pontos quentes dos dados. Com 
 
 Para instalar o Folium no Colab Notebook utilizamos o pip. O pip é o instalador de pacotes do Python, linguagem que estamos utilizando:
 ~~~python
-!pip install folium #Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+!pip install folium 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
 ~~~~
