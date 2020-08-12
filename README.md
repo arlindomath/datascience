@@ -60,4 +60,19 @@ Para salvar o mapa em um Arquivo HTML:
 mapa.save('mapa.html')
 ```
 [Acesse o mapa](https://codepen.io/drax0114/pen/eYZYmLB)
-
+Agora precisamos definir através dos nossos dados as localizações correspondentes aos dados:
+```python
+locais = dados_covid19 [["lat","lon"]].values.tolist() 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+```
+Chamando o plugin HeatMap chamamos nossa variável locais e definimos o raio de corbetura dos dados no mapa:
+```python
+HeatMap (locais, radius=18).add_to(mapa)
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+```
+Pronto, agora temos o nosso mapa de calor feito em Python com dados da Covid-19:
+```python
+mapa 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+```
+[Acesse o Mapa](https://codepen.io/drax0114/pen/gOrObZE)
