@@ -25,8 +25,14 @@ import folium
 #Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
 ~~~~
 Com o folium presente, temos então a facilidade de importar o modelo de Mapa de Calor presente nos *plugins* da biblioteca, aqui então importaremos o HeatMap:
-## ATENÇÃO PARA AS LETRAS MAIÚSCULAS E MINÚSCULAS. NO PYTHON ELAS FAZEM PARTE DA IDENTIDADE DO CÓDIGO E SEGUEM O PADRÃO DA LINGUAGEM!
+#### ATENÇÃO PARA AS LETRAS MAIÚSCULAS E MINÚSCULAS. NO PYTHON ELAS FAZEM PARTE DA IDENTIDADE DO CÓDIGO E SEGUEM O PADRÃO DA LINGUAGEM!
 ~~~~python
 from folium.plugins import HeatMap 
 #Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
 ~~~~
+Ao concluir todas as importações referentes ao Folium, partimos para a famigerada biblioteca Pandas, importantíssima para o nosso trabalho com dados. Com ela podemos além de importar dados também podemos editá-los:
+#### Pandas é o nome da biblioteca e como de costume os programadores as apelidam de pd, mas isso é opcional.
+```python
+import pandas as pd 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+```
