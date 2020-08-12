@@ -1,6 +1,6 @@
 # Data Science
 
-##Mapas
+## Mapas <h2>
 
 Os mapas são instrumentos de comunicação, são utilizados para representar graficamente área do espaço terrestre. Através de diferentes tipos de informações é possível construir diversos tipos de mapas.
 
