@@ -12,7 +12,7 @@ Os mapas são instrumentos de comunicação, são utilizados para representar gr
 
 O mapa de calor mostra quais são os pontos quentes dos dados. Com ele podemos identificar as regiões com maior concentração de casos de Covid-19. Para construir esse Mapa utilizaremos a Biblioteca Folium - Acesse a documentação: https://python-visualization.github.io/folium/
 
-## VAMOS AO CÓDIGO!
+#### VAMOS AO CÓDIGO!
 
 Para instalar o Folium no [Colab Notebook](https://colab.research.google.com/) utilizamos o pip. O pip é o instalador de pacotes do Python, linguagem que estamos utilizando:
 ~~~python
@@ -45,4 +45,21 @@ Nesse caso utilizarei os arquivos disponibilizados no [Github do Wesley Cota](ht
 dados_covid19 = pd.read_csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases-gps.csv') 
 #Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
 ```
-
+Depois de receber os dados podemos mostrá-los, utilizando a função .head() mostramos as 5 primeiras linhas do arquivo CSV.
+```python
+dados_covid19.head() 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+```
+Com os dados importados corretamente, precisamos criar um mapa base para que o plugin do Folium funcione, para isso precisamos das coordenadas geográficas de um ponto que queremos mostrar no mapa, utilizaremos o mapa do Brasil como exemplo:
+```python
+mapa = folium.Map (location=[-15.77972, -47.92972], zoom_start=4, min_zoom=4, control_scale=True) 
+#Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+```
+Para salvar o mapa em um Arquivo HTML:
+```python
+mapa.save('mapa.html')
+```
+<iframe height="265" style="width: 100%;" scrolling="no" title="Mapa Folium" src="https://codepen.io/drax0114/embed/eYZYmLB?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/drax0114/pen/eYZYmLB'>Mapa Folium</a> by Arlindo Matheus
+  (<a href='https://codepen.io/drax0114'>@drax0114</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
