@@ -11,3 +11,10 @@ Os mapas são instrumentos de comunicação, são utilizados para representar gr
 
 
 O mapa de calor mostra quais são os pontos quentes dos dados. Com ele podemos identificar as regiões com maior concentração de casos de Covid-19. Para construir esse Mapa utilizaremos a Biblioteca Folium - Acesse a documentação: https://python-visualization.github.io/folium/
+
+## VAMOS AO CÓDIGO!
+
+Para instalar o Folium no Colab Notebook utilizamos o pip. O pip é o instalador de pacotes do Python, linguagem que estamos utilizando:
+~~~python
+!pip install folium #Para executar o comando clique no Play ou use o atalho do teclado Shift+Enter
+~~~~
